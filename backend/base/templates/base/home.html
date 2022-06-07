@@ -6,21 +6,13 @@
   }
 </style>
 <div class="home-container">
-  <div>
-    {% include 'base/topics.html'%}
-  </div>
+  <div>{% include 'base/topics.html'%}</div>
 
   <div>
     <h5>{{room_count}} rooms available</h5>
     <a href="{% url 'create-room' %}">Create Room</a>
 
-    <div>
-      {% for room in rooms %}
-      <div>
-        {% include 'base/feed.html' %}
-      </div>
-      {% endfor %}
-    </div>
+    <div>{% include 'base/feed.html' %}</div>
   </div>
 
   <div>{% include 'base/activity.html' %}</div>
