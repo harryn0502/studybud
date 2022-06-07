@@ -1,2 +1,2 @@
 # studybud
-Django+React Practice Project
+Django Practice Project
