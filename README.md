@@ -7,14 +7,8 @@ Django Practice Project
 
 ### App Setup
 
---> Move into the directory where we have the backend files : 
-```bash
-cd backend
-```
-
 --> Create a python virtual environment :
 ```bash
-# Create a virtual environment
 python venv [name]
 ```
 
@@ -26,6 +20,11 @@ python venv [name]
 --> If you want to deactivate the virtual environment :
 ```bash
 [name]\scripts\deactivate
+```
+
+--> Move into the directory where we have the backend files : 
+```bash
+cd backend
 ```
 
 --> Install the requirements :
